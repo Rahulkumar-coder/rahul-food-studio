@@ -1,0 +1,137 @@
+@media  screen and (max-width:960px) {
+    
+    #navbar{
+        flex-direction: column;
+    }
+    #services #all-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #all-box .box1{
+        left: 175px;
+        overflow: hidden;
+    }
+    #all-box .box2{
+        left: 170px;
+        overflow: hidden;
+    }
+    #all-box .box3{
+        left: 170px;
+        overflow: hidden;
+    }
+    #services .services{
+        left: 330px;
+    }
+    #clients-section .clients-images{
+        flex-wrap: wrap;
+    }
+    #clients-section .clients-images img{
+        /* flex-wrap: wrap; */
+        width: 110px;
+        height: 130px;
+    }
+
+    #home .primary{
+        position: relative;
+        top: -2px;
+        font-size: 32px;
+    }
+    #home{
+        padding: 50px 255px;
+    }
+    #home::before{
+        height: 80vh;
+    }
+    #navbar ul{
+        position: relative;
+        bottom: 45px;
+    }
+    .btn{
+        margin-right: 63px;
+    }
+    .logo img{
+        position: relative;
+        bottom: 9px;
+    }
+}
+@media screen and (max-width:702px){
+    #home .primary{
+        top: 75px;
+        font-size: 24px;
+    }
+    
+    #home .para{
+        position: relative;
+        top: 74px;
+        font-size: 14px;
+        width: 200px;
+    }
+    .btn{
+        position: relative;
+        top: 75px;
+    }
+    
+    #services .services{
+        left: 247px;
+    }
+    #all-box .box1{
+        left: 110px;
+    }    
+    #all-box .box2{
+        left: 110px;
+    }    
+    #all-box .box3{
+        left: 110px;
+    }    
+}       
+@media screen and (max-width: 548px){
+    #services .services{
+        left: 150px;
+
+    }
+    #all-box .box1{
+        left: 30px;
+    }
+    
+    #all-box .box2{
+        left: 30px;
+    }
+    
+    #all-box .box3{
+        left: 30px;
+    }
+
+    #clients-section .clients-images img{
+        /* flex-wrap: wrap; */
+        width: 40px;
+        height: 70px;
+    }
+} 
+@media screen and (max-width:512px) {
+    #navbar ul {
+        width: 264px;
+    }
+    
+    
+    
+}
+@media screen and (max-width:388px) {
+    #navbar ul li a{
+        font-size: 14px;
+        /* margin-left: 20px; */
+        flex-wrap: wrap;
+        /* margin-left: 33px; */
+    }
+    #navbar ul li{
+        padding: 4px 7px;
+        margin: 2px 7px;
+    }
+    #navbar ul{
+        margin-left: 210px;
+        flex-direction: column;
+    }
+    #home .primary{
+        left: -40px;
+    }
+}
